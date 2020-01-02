@@ -2,8 +2,17 @@
 
 <suite name="Suite1" verbose="1" >
     <test name="function"   >
-        <packages>
+    <!--    <packages>
             <package name="com.qa.sampletests" />
-        </packages>
+        </packages>-->
+
+        <classes>
+            <class name="com.qa.sampletests.GoogleHomePageTest">
+                <methods>
+                    <include name="verifyPageTitle"></include>
+                </methods>
+
+            </class>
+        </classes>
     </test>
 </suite>

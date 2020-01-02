@@ -22,7 +22,7 @@ public class GoogleHomePageTest extends TestBase {
 
     @Test
     public void failedPageTitle(){
-        Assert.assertEquals(driver.getTitle(),"Test");
+        Assert.assertEquals(driver.getTitle(),"Google");
     }
 
     @AfterMethod
